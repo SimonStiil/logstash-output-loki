@@ -1,2 +1,2 @@
-FROM docker.elastic.co/logstash/logstash:7.16.3
+FROM docker.elastic.co/logstash/logstash:8.14.1
 RUN bin/logstash-plugin install logstash-output-loki
